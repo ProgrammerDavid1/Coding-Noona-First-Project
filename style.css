@@ -1,0 +1,48 @@
+body{
+    background-size: 50% auto; /* 배경 이미지를 절반 크기로 조정하여 두 번 반복될 수 있도록 설정 */
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Euro2024.jpg);
+    font-weight: bold;
+}
+
+.container{
+    border: 10px solid skyblue;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+}
+
+.button-style{
+    height:50px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 48rem) {
+    .pre-title {
+      font-size: 10vw;
+    }
+    .title {
+      font-size: 12vw;
+    }
+    .form-control {
+      font-size: 8vw;
+      max-width: 500px;
+      margin-right: 0px;
+    }
+    .main-img {
+      width: 40vw;
+    }
+    .button-reset {
+      font-size: 5vw;
+      width: 80px;
+      height: 60px;
+    }
+}
