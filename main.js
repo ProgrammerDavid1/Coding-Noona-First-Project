@@ -32,7 +32,7 @@ function remove(){
 }
 
 function reset(){
-    imageArea.src = "https://t1.daumcdn.net/cafeattach/1YmK3/bbeaae74d270bee23ca87122cc40f80f12b276e0"; //src도 함수가 아니라서 ()가 아니고 = 으로 접근
+    imageArea.src = "맨시티 챔스 우승.gif"; //src도 함수가 아니라서 ()가 아니고 = 으로 접근
     chances=3;
     inputNumber.value="";  //inputNumber 창이 깨끗하게 정리되고
     RandomNumber(); //새로운 번호가 생성되고
