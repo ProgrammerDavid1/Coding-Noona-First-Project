@@ -40,6 +40,8 @@ function reset(){
     gameStart.textContent='자 그럼 게임을 다시 시작해볼까!!'; //textContent는 함수가 아니여서 () 하면 안되고 = 으로 접근해야함!
     resultArea.textContent= "";
     chanceArea.textContent=`남은 기회: ${chances}번`;
+    historyArea.textContent = "";
+    history=[];
 }
 
 
@@ -86,7 +88,7 @@ function play(){
     }
     
     history.push(inputNumber.value); //배열에 이미 입력한 숫자 삽입
-    historyArea.textContent = `현재까지 입력한 숫자: ${history}`;  //현재까지 입력한 숫자 리스트 보여주기
+    historyArea.textContent = `현재까지 입력한 숫자: ${history}`;  //현재까지 입력한 숫자 리스트
 }
 
 
