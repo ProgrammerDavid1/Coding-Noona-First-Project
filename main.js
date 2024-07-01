@@ -13,7 +13,7 @@
 let computerPickRandomNumber=0;
 let inputNumber=document.getElementById("input-area");
 let chanceArea=document.getElementById("chance-area");
-let chances=10;
+let chances=3;
 let GoButton=document.getElementById("Go!"); //버튼 아이디 값 가져오기
 let resetButton=document.getElementById("Reset!");
 let history=[];
