@@ -1,17 +1,24 @@
-###숫
+# A number-matching game
 
-컴퓨터는 게임이 시작할때 랜덤한 숫자를 뽑는다
-유저는 숫자를 입력할 수 있다
-유저가 입력한 숫자가 컴퓨터가 뽑은 숫자보다 작으면 Up! 이라고 알려준다
-유저가 입력한 숫자가 컴퓨터가 뽑은 숫자보다 크면 Down! 이라고 알려준다
-유저가 입력한 숫자가 컴퓨터가 뽑은 숫자와 일치하다면 That's right이라고 뜨고 게임이 종료된다.
-유저는 총 5번의 기회가 있다
-게임이 종료되면 버튼은 비활성화된다
-리셋버튼을 누르면 게임이 초기화된다
-유저가 1~100범위 밖에 숫자를 입력할시에 경고메세지가 뜬다
-유저가 이미 입력한 값을 또 입력할 시에 경고메세지가 뜬다
-반응형 UI
-사용한 기술
-HTML
-CSS
-Vanila Javascript
+첫 화면 사진<br>
+
+This is a project inspired by the drinking game Up Down.
+
+
+## Function
+- The computer picks a random number at the start of the game<br>
+- Users can enter numbers<br>
+- If the number entered by the user is smaller than the number selected by the computer, it will be notified as Up<br>
+- If the number entered by the user is larger than the number selected by the computer, it will tell you Down<br>
+- If the number entered by the user matches the number selected by the computer, it appears as That's right and the game ends.<br>
+- The user has a total of five opportunities<br>
+- When the game ends, the button is disabled<br>
+- Press the reset button to reset the game<br>
+- When a user enters a number outside the range of 1 to 100, a warning message appears<br>
+- A warning message appears when the user enters the value already entered<br>
+- Reactive UI<br>
+
+# Technology used
+- HTML<br>
+- CSS<br>
+- Javascript
