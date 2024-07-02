@@ -24,3 +24,5 @@ This is a project inspired by the drinking game Up Down.
 - HTML<br>
 - CSS<br>
 - Javascript
+
+https://noona-nelify.netlify.app/
