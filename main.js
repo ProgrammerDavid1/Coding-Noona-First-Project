@@ -4,7 +4,7 @@
 // 랜덤번호가 < 유저번호 Down!!
 // 랜덤번호 > 유저 번호 Up!!
 //Reset 버튼을 누르면 게임이 리셋된다
-// 3번의 기회를 다쓰면 게임이 끝난다(더 이상 추측 불가, 버튼이 disable)
+// 10번의 기회를 다쓰면 게임이 끝난다(더 이상 추측 불가, 버튼이 disable)
 // 유저가 1~100 범위 밖에 숫자를 입력하면 알려준다. 기회를 깎지 않는다
 // 유저가 이미 입력한 숫자를 또 입력하면, 알려준다, 기회를 깎지 않는다.
 // 입력 칸에 마우스 커서를 가져다 대면 자동으로 숫자가 사라진다
@@ -21,7 +21,6 @@ let resultArea=document.getElementById("result-area");
 let gameStart=document.getElementById("gameStart");
 let imageArea=document.querySelector(".main-img"); //자바스크립트 문법으로 이미지 첨가할거면 getid가 아니라 querySelector로 class를 선택해줘야함!!
 let historyArea=document.getElementById("history-area");
-
 GoButton.addEventListener("click",play); //playButton에 즉, Go! 버튼을 누르면 발생하는 이벤트 추가. play가 실행
 resetButton.addEventListener("click",reset); //click 말고 focus나 mouseover등등 더 다양하게 존재
 inputNumber.addEventListener("focus",remove);
