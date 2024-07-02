@@ -13,7 +13,7 @@
 let computerPickRandomNumber=0;
 let inputNumber=document.getElementById("input-area");
 let chanceArea=document.getElementById("chance-area");
-let chances=3;
+let chances=10;
 let GoButton=document.getElementById("Go!"); //버튼 아이디 값 가져오기
 let resetButton=document.getElementById("Reset!");
 let history=[];
@@ -32,7 +32,7 @@ function remove(){
 
 function reset(){
     imageArea.src = "맨시티 챔스 우승.gif"; //src도 함수가 아니라서 ()가 아니고 = 으로 접근
-    chances=3;
+    chances=10;
     inputNumber.value="";  //inputNumber 창이 깨끗하게 정리되고
     RandomNumber(); //새로운 번호가 생성되고
     GoButton.disabled=false; // disabled 된 gobutton이 다시 활성화
