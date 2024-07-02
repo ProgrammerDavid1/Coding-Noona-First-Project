@@ -1,6 +1,6 @@
 # A number-matching game
 
-첫 화면 사진<br>
+<img width="1265" alt="숫자 맞추기 게임 화면" src="https://github.com/ProgrammerDavid1/Coding-Noona-First-Project/assets/161571242/67d8547f-3e76-46d0-9f9a-3365b89cc3c7">
 
 This is a project inspired by the drinking game Up Down.
 
